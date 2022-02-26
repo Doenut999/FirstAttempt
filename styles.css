@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+#brief-about {
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+.detailed-sections div {
+    scroll-snap-align: start;
+
+}
+
+@font-face {
+    font-family: sammy;
+    src: url("assets/fonts/samsung-font/samsungsharpsans-bold.otf");
+}
+
+nav {
+    display: flex;
+    top: 0;
+    position: fixed;
+    width: 100vw;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0,0,0,0.2);
+}
+
+#nav-links > a {
+    margin: 0 26px;
+    text-decoration: none;
+    color: navy;
+}
+
+#logo-and-name{
+    width: 35vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /*border: 1px solid springgreen;*/
+}
+
+#logo {
+    width: 80px;
+    margin-right: 20px;
+    margin-left: 10px;
+    height: 80px;
+    cursor: pointer;
+}
+
+#big-name {
+    font-family: sammy sans-serif;
+}
+
+
+#section-one-cover {
+    /*margin-top: 8vh;*/
+    height:100vh;
+    background-color: mediumpurple;
+}
+
+.first-intro {
+    border: 1px solid yellow;
+    border-radius: 10px;
+    width: 32vw;
+    padding: 4vw 4vw;
+    margin: 100px 50px;
+}
+
+
+#section-two-cover {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightskyblue;
+}
+#section-three-cover {
+    width: 100vw;
+    height: 100vh;
+    background-color: lawngreen;
+}
+
+#section-four-cover {
+    width: 100vw;
+    height: 100vh;
+    background-color: goldenrod;
+}
+
+#section-five-cover {
+    width: 100vw;
+    height: 100vh;
+    background-color: dodgerblue;
+}
+
+#section-six-cover {
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+#section-seven-cover {
+    width: 100vw;
+    height: 100vh;background-color: darkolivegreen;
+}
+
+#section-eight-cover {
+    width: 100vw;
+    height: 100vh;
+    background-color: cadetblue;
+}
